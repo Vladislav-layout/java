@@ -50,7 +50,6 @@ public class Task6 {
                 default:
                     System.out.println("Выбрана некорректная цифра единицы измерения");
             }
-        }
-        else System.out.println("Введен некорректный символ");
+        } else System.out.println("Введен некорректный символ");
     }
 }
