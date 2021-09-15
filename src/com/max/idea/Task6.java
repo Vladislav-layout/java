@@ -1,5 +1,6 @@
 package com.max.idea;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Task6 {
     public static void main(String[] args) {

@@ -6,18 +6,30 @@ public class Task5 {
         Scanner in = new Scanner(System.in);
         Scanner in2 = new Scanner(System.in);
         System.out.print("Введите число Х: ");
-        int x = in.nextInt();
+        double x = in.nextInt();
 
         System.out.print("Введите число Y: ");
-        int y = in.nextInt();
+        double y = in.nextInt();
 
         System.out.print("Введите один из символов ‘+’, ‘-’, ‘*’ или ‘/’: ");
-        char simbol = in.next().charAt(0);
+        String simbol = in2.nextLine();
 
-        if(simbol=='+')System.out.println(x+y);else
-        if(simbol=='-')System.out.println(x-y);else
-        if(simbol=='/')System.out.println(x/y);else
-        if(simbol=='*')System.out.println(x*y);else System.out.println("Введен неверный символ");
-
+        switch (simbol) {
+            case "+":
+                System.out.println(x + y);
+                break;
+            case "-":
+                System.out.println(x - y);
+                break;
+            case "/":
+                System.out.println(x / y);
+                break;
+            case "*":
+                System.out.println(x * y);
+                break;
+            default:
+                System.out.println("Введен неверный символ");
+                break;
+        }
     }
 }

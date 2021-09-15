@@ -17,8 +17,7 @@ public class Task4 {
         double sr=(x+y+z)/3;
         System.out.println("Среднее арифметическое: " + sr);
 
-        Math.floor(sr/2);
-        if (sr>3) {
+        if (Math.floor(sr/2)>3) {
             System.out.println("Программа выполнена корректно");
         }
     }
