@@ -23,7 +23,7 @@ public class Task5 {
                 break;
             case "/":if (y==0){
                 System.out.println("На ноль делить нельзя!!!");
-            }else System.out.println(x / y);
+            } else System.out.println(x / y);
                 break;
             case "*":
                 System.out.println(x * y);
