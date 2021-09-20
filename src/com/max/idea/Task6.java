@@ -33,7 +33,7 @@ public class Task6 {
             System.out.println("Выберите единицу измерения: 1 - килограмм, 2 - тонна, 3 - фунт, 4 - унция");
             int y = in.nextInt();
             System.out.println("Введите число");
-            int z = in.nextInt();
+            double z = in.nextDouble();
 
             switch (y) {
                 case 1:
