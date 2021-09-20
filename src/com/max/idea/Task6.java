@@ -11,7 +11,7 @@ public class Task6 {
             System.out.println("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут");
             int y = in.nextInt();
             System.out.println("Введите число");
-            int z = in.nextInt();
+            double z = in.nextDouble();
 
             switch (y) {
                 case 1:
