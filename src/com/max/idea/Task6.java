@@ -30,7 +30,7 @@ public class Task6 {
                     System.out.println("Выбрана некорректная цифра единицы измерения");
             }
         } else if (x == 1) {
-            System.out.println("Выберите единицу измерения:1 - килограмм, 2 - тонна, 3 - фунт, 4 - унция");
+            System.out.println("Выберите единицу измерения: 1 - килограмм, 2 - тонна, 3 - фунт, 4 - унция");
             int y = in.nextInt();
             System.out.println("Введите число");
             double z = in.nextDouble();
