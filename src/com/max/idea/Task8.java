@@ -6,8 +6,8 @@ public class Task8 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите целое положительное число n: ");
         int n = in.nextInt();
-        while(n < 0) {
-            System.out.println("Вы ввели отрицательное число. Попробуйте еще раз!\nВведите целое положительное число n: ");
+        while(n <= 0) {
+                System.out.println("Вы ввели ноль или отрицательное число. Попробуйте еще раз!\nВведите целое положительное число n: ");
             n = in.nextInt();
         }
 
